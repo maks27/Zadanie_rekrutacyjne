@@ -1,0 +1,45 @@
+.app{
+    margin:0 auto;
+    text-align: center;
+}
+.button-style,a{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  box-shadow: 4px 7px 3px 1px #333333;
+  cursor: pointer;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.log-out{
+    color: rgb(255, 255, 255);
+    background-color: #c52e23;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-size: bold;
+    box-shadow: 4px 7px 3px 1px #333333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.input{
+    padding: 8px 20px;
+    font-size: 16px;
+    margin:5px;
+    border-radius: 5px;
+    
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+.valid-span{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
