@@ -1,0 +1,8 @@
+<h1><%= text %></h1>
+<% if (token) { %>
+  <h2>Gratuluje pomyślnie się zalogowałeś</h2>
+  <button class="log-out" >Wyloguj się</button>
+<% } %> 
+<% if (!token) { %>
+  <a href="#/login">Zaloguj się</a>
+<% } %> 

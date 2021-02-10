@@ -1,5 +1,4 @@
 import { route } from "./router";
-
 route("/sucess", "sucess", function () {
   this.token = JSON.parse(localStorage.getItem("token"));
   if (localStorage.getItem("token") !== null) {

@@ -3,31 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <title>PureJS</title>
-    <script type="text/html" id="home">
-      <h1><%= title %></h1>
-      <form id="form" class="form" >
-        <label for="login">Login</label><br>
-        <input type="text" id="loginField" name="login" class="input" placeholder="Login..."><br>
-        <label for="password">Hasło</label><br>
-        <input type="password" id="password" name="password" class="input" placeholder="Hasło..."><br>
-        <span class="valid-span"><%= validationField %></span><br>
-        <input type="submit" id="submit" value="Potwierdź" class="button-style"><br>
-      </form> 
-    </script>
-      <script type="text/html" id="sucess">
-        <h1><%= text %></h1>
-        <% if (token) { %>
-          <h2>Gratuluje pomyślnie się zalogowałeś</h2>
-          <button class="log-out" >Wyloguj się</button>
-        <% } %> 
-        <% if (!token) { %>
-          <a href="#/login">Zaloguj się</a>
-        <% } %> 
-      </script>
- 
-    <script type="text/html" id="404">
-      <h1>404 Not found</h1>
-    </script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body class="body">

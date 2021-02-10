@@ -8,4 +8,13 @@ module.exports = {
   devServer: {
     hot: true,
   },
+  module: {
+    rules: [
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
+    ],
+  },
+  
 };
